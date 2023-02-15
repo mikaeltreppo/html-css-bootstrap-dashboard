@@ -24,7 +24,8 @@
 .ms_aside {
     height: calc(100vh - 60px);
     width: 15%;
-    background-color: black;
+    background-image: url(../img/sidebar-bg.png);
+    background-color:rgb(5, 30, 52);
 }
 .ms_head-piece-1{
     order:2

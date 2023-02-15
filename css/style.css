@@ -1,0 +1,19 @@
+:root{
+  
+}
+.ms_invisible{
+    display: none;
+}
+.ms_header{
+    border: black 1px dotted; 
+    height: 60px;
+}
+
+@media screen and (min-width:768px) {
+    .ms_invisible{
+        display: inline-block;
+    }
+    .ms_phone-invisible{
+        display: none;
+    }
+}

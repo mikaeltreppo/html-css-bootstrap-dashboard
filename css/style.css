@@ -1,26 +1,39 @@
-:root{
-  
-}
-.ms_invisible{
+:root {}
+
+.ms_invisible {
     display: none;
 }
-.ms_header{
-    border: black 1px dotted; 
+
+.ms_header {
+    border: black 1px dotted;
     height: 60px;
 }
-.ms_main{
+
+.ms_main {
     padding-top: 60px;
     width: 100%;
     background-color: aqua;
 }
-.ms_content{
+
+.ms_content {
     width: 100%;
     height: calc(100vh - 60px);
-    border: 2px dashed red;}
-.ms_aside{
-    height: calc(100vh - 60px) ;
+    border: 2px dashed red;
+}
+
+.ms_aside {
+    height: calc(100vh - 60px);
     width: 15%;
     background-color: black;
+}
+.ms_head-piece-1{
+    order:2
+}
+.ms_head-piece-2{
+    order:3
+}
+.ms_head-piece-3{
+    order:1;
 }
 
 
@@ -47,13 +60,27 @@
 
 /*media query desktop*/
 @media screen and (min-width:768px) {
-    .ms_invisible{
+    .ms_invisible {
         display: inline-block;
     }
-    .ms_phone-invisible{
+
+    .ms_phone-invisible {
         display: none;
     }
-    .ms_content{
+
+    .ms_content {
         display: flex;
+    }
+
+    .ms_head-piece-1 {
+        order: 1;
+    }
+
+    .ms_head-piece-2 {
+        order: 2;
+    }
+
+    .ms_head-piece-3 {
+        order: 3;
     }
 }

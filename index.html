@@ -44,14 +44,14 @@
         <aside class="ms_aside d-flex flex-column align-items-center justify-content-between pt-1 text-white">
             <div class="ms_top">
                 <div class="ms_aside-icon px-4 pt-3"><a href="#"> <i class="fa-solid fa-house "></i> <span
-                            class="ms-2 ms_invisible">HOME</span></a></div>
+                            class="ms-2 ms_invisible d-none d-lg-inline-block">HOME</span></a></div>
                 <div class="ms_aside-icon px-4"><a href="#"><i class="fa-solid fa-chart-simple"></i> <span
-                            class="ms-2 ms_invisible mt-3">STATS</span></a></div>
+                            class="ms-2 ms_invisible mt-3 d-none d-lg-inline-block">STATS</span></a></div>
                 <div class="ms_aside-icon px-4"><a href="#"> <i class="fa-solid fa-signal"></i> <span
-                            class="ms_invisible ms-2 mt-3">SIGNALS</span></a></div>
+                            class="ms_invisible ms-1 mt-3 d-none d-lg-inline-block">SIGNAL</span></a></div>
             </div>
             <div class="ms_bottom">
-                <div class="ms_aside-icon px-4"><a href="#"> <i class="fa-solid fa-gear"></i> <span class="ms_invisible ms-2 mt-3">ADMIN</span></a></div>
+                <div class="ms_aside-icon px-4"><a href="#"> <i class="fa-solid fa-gear"></i> <span class="ms_invisible ms-2 mt-3 d-none d-lg-inline-blockd-none d-lg-inline-block ">ADMIN</span></a></div>
             </div>
         </aside>
 
@@ -67,20 +67,20 @@
                         <div class="ms_head-piece-1  col-12 col-md-6">
 
                             <div class="">
-                                <span class="me-2">Boolean</span>
-                                <span class="badge rounded-pill text-bg-primary">Piano Blaze</span>
+                                <span class="me-2 fs-5">Boolean</span>
+                                <span class="badge rounded-pill ms_pills">Piano Blaze</span>
                             </div>
                             <!--breadcrumb-->
                             <div>
                                 <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="#"><span
-                                                    class="badge rounded-pill text-bg-primary">Piano Blaze</span></a>
+                                                    class="badge rounded-pill ms_pills">Piano Blaze</span></a>
                                         </li>
                                         <li class="breadcrumb-item active" aria-current="page"><span
-                                                class="badge rounded-pill text-bg-primary">Piano Blaze</span> </li>
-                                        <span class="badge rounded-pill text-bg-primary">Piano Blaze</span><span
-                                            class="badge rounded-pill text-bg-primary">Piano Blaze</span>
+                                                class="badge rounded-pill  ms_pills">Home</span> 
+                                        <span class="badge rounded-pill ms_pills d-none d-md-inline-block mx-1">3 app</span><span
+                                            class="badge rounded-pill ms_pills d-none d-md-inline-block">Piani </span></li>
                                     </ol>
 
                                 </nav>
@@ -89,7 +89,7 @@
                         <!--studenti online-->
                         <div class="ms_head-piece-2 col-12 col-md-4">
                             <div>studenti online negli ultimi 30 minuti</div>
-                            <span>125</span>
+                            <span class="fs-3">125</span>
                         </div>
                         <!--nuovo studente-->
                         <div class="ms_head-piece-3 col-12 col-md-2 d-flex align-items-center justify-content-between">
@@ -98,10 +98,10 @@
                                 <i class="fa-regular fa-square-plus ms_plus text-white"></i> 
                               </button>
                               
-                              <div class="offcanvas offcanvas-end p-4" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                              <div class="offcanvas offcanvas-end p-4 " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                                 
                               <form class="row g-3">
-                                <div class="col-md-6">
+                                <div class="col-md-6 ">
                                   <label for="inputEmail4" class="form-label">Nome</label>
                                   <input type="email" class="form-control" id="inputEmail4">
                                 </div>
@@ -173,9 +173,9 @@
                             <table class="table text-center">
                                 <thead>
                                     <tr>
-                                        <th scope="col">NOME</th>
-                                        <th scope="col">Data d'inizio</th>
-                                        <th scope="col">RDI</th>
+                                        <th scope="col" >NOME</th>
+                                        <th scope="col" class="d-none d-md-inline-block ">Data d'inizio</th>                         
+                                        <th scope="col" class="d-none d-md-inline-block " >RDI</th>
                                         <th scope="col">Stato</th>
                                         <th scope="col">Azioni</th>
                                     </tr>
@@ -186,8 +186,8 @@
                                                 src="img/class-avatar.jpg" alt="coding img">
                                             <span class="fw-normal"> Classe 75</span>
                                         </th>
-                                        <td>15 Febbraio 2023</td>
-                                        <td>20%</td>
+                                        <td class="d-none d-md-inline-block">15 Febbraio 2023</td>
+                                        <td class="d-none d-md-inline-block ">20%</td>
                                         <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                         <td><button type="button" class="btn border"><i
                                                     class="fa-solid fa-pen"></i></button>
@@ -200,8 +200,8 @@
                                                 src="img/class-avatar.jpg" alt="coding img">
                                             <span class="fw-normal"> Classe 76</span>
                                         </th>
-                                        <td>16 Febbraio 2023</td>
-                                        <td>20%</td>
+                                        <td class="d-none d-md-inline-block ">16 Febbraio 2023</td>
+                                        <td class="d-none d-md-inline-block ">20%</td>
                                         <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                         <td><button type="button" class="btn border"><i
                                                     class="fa-solid fa-pen"></i></button>
@@ -214,8 +214,8 @@
                                                 src="img/class-avatar.jpg" alt="coding img">
                                             <span class="fw-normal"> Classe 77</span>
                                         </th>
-                                        <td>17 Febbraio 2023</td>
-                                        <td>20%</td>
+                                        <td class="d-none d-md-inline-block ">17 Febbraio 2023</td>
+                                        <td class="d-none d-md-inline-block ">20%</td>
                                         <td><span class="badge rounded-pill text-bg-warning">Process</span></td>
                                         <td><button type="button" class="btn border"><i
                                                     class="fa-solid fa-pen"></i></button>
@@ -228,8 +228,8 @@
                                                 src="img/class-avatar.jpg" alt="coding img">
                                             <span class="fw-normal"> Classe 78</span>
                                         </th>
-                                        <td>18 Febbraio 2023</td>
-                                        <td>20%</td>
+                                        <td class="d-none d-md-inline-block ">18 Febbraio 2023</td>
+                                        <td class="d-none d-md-inline-block ">20%</td>
                                         <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                         <td><button type="button" class="btn border"><i
                                                     class="fa-solid fa-pen"></i></button>
@@ -242,8 +242,8 @@
                                                 src="img/class-avatar.jpg" alt="coding img">
                                             <span class="fw-normal"> Classe 79</span>
                                         </th>
-                                        <td>19 Febbraio 2023</td>
-                                        <td>20%</td>
+                                        <td class="d-none d-md-inline-block ">19 Febbraio 2023</td>
+                                        <td class="d-none d-md-inline-block ">20%</td>
                                         <td><span class="badge rounded-pill text-bg-danger">Failed</span></td>
                                         <td><button type="button" class="btn border"><i
                                                     class="fa-solid fa-pen"></i></button>
@@ -256,8 +256,8 @@
                                                 src="img/class-avatar.jpg" alt="coding img">
                                             <span class="fw-normal"> Classe 80</span>
                                         </th>
-                                        <td>20 Febbraio 2023</td>
-                                        <td>20%</td>
+                                        <td class="d-none d-md-inline-block ">20 Febbraio 2023</td>
+                                        <td class="d-none d-md-inline-block ">20%</td>
                                         <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                         <td><button type="button" class="btn border"><i
                                                     class="fa-solid fa-pen"></i></button>
@@ -270,8 +270,8 @@
                                                 src="img/class-avatar.jpg" alt="coding img">
                                             <span class="fw-normal"> Classe 81</span>
                                         </th>
-                                        <td>21 Febbraio 2023</td>
-                                        <td>20%</td>
+                                        <td class="d-none d-md-inline-block ">21 Febbraio 2023</td>
+                                        <td class="d-none d-md-inline-block ">20%</td>
                                         <td><span class="badge rounded-pill text-bg-danger">Failed</span></td>
                                         <td><button type="button" class="btn border"><i
                                                     class="fa-solid fa-pen"></i></button>
@@ -284,8 +284,8 @@
                                                 src="img/class-avatar.jpg" alt="coding img">
                                             <span class="fw-normal"> Classe 82</span>
                                         </th>
-                                        <td>22 Febbraio 2023</td>
-                                        <td>20%</td>
+                                        <td class="d-none d-md-inline-block ">22 Febbraio 2023</td>
+                                        <td class="d-none d-md-inline-block ">20%</td>
                                         <td><span class="badge rounded-pill text-bg-success">Done</span></td>
                                         <td><button type="button" class="btn border"><i
                                                     class="fa-solid fa-pen"></i></button>
@@ -392,7 +392,7 @@
                                 <li class="list-group-item">Gennaio: 1200</li>
                                 <li class="list-group-item">Febbraio: 800</li>
                                 <li class="list-group-item">Marzo: 1100</li>
-                                <li class="list-group-item"><a href="#">Visualizza report approfondito</a></li>
+                                <li class="list-group-item"><a class=" ms_txt-dec"href="#">Visualizza report approfondito</a></li>
                             </ul>
 
                         </div>

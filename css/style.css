@@ -1,8 +1,10 @@
-
 .ms_invisible {
     display: none;
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .ms_header {
     height: 60px;
 }
@@ -12,7 +14,7 @@
     width: 100%;
 }
 
-.ms_content { 
+.ms_content {
     width: 100%;
     height: calc(100vh - 60px);
 }
@@ -21,33 +23,50 @@
     height: calc(100vh - 60px);
     width: 15%;
     background-image: url("../img/sidebar-bg.png");
-    background-color:rgb(5, 30, 52);
+    background-color: rgb(5, 30, 52);
 }
-.ms_head-piece-1{
-    order:2
+.ms_aside-icon:hover{
+    background-color: white;
+    color: black;
+    
 }
-.ms_head-piece-2{
-    order:3
+.ms_plus{
+    font-size: 35px;
 }
-.ms_head-piece-3{
-    order:1;
+.ms_head-piece-1 {
+    order: 2
 }
-.ms_img-code{
+
+.ms_head-piece-2 {
+    order: 3
+}
+
+.ms_head-piece-3 {
+    order: 1;
+}
+
+.ms_img-code {
     height: 25px;
     width: 25px;
-} table i{
+}
+
+table i {
     height: 10px;
 }
-th:first-child{
+
+th:first-child {
     text-align: left;
 }
-.ms_img-stats{
+
+.ms_img-stats {
     width: 100%;
 }
-.ms_card-todo{
+
+.ms_card-todo {
     margin-top: 20px;
 }
-.ms_head-main{
+
+.ms_head-main {
     background-color: rgb(27, 114, 232);
 }
 
@@ -95,8 +114,9 @@ th:first-child{
     .ms_head-piece-3 {
         order: 3;
     }
-    .ms_card-todo{
+
+    .ms_card-todo {
         margin-top: 0;
     }
-    
+
 }

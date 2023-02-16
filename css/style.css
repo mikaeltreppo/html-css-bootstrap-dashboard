@@ -24,7 +24,7 @@
 .ms_aside {
     height: calc(100vh - 60px);
     width: 15%;
-    background-image: url(../img/sidebar-bg.png);
+    background-image: url("../img/sidebar-bg.png");
     background-color:rgb(5, 30, 52);
 }
 .ms_head-piece-1{
@@ -37,13 +37,20 @@
     order:1;
 }
 .ms_img-code{
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
+} table i{
+    height: 10px;
 }
 th:first-child{
     text-align: left;
 }
-
+.ms_img-stats{
+    width: 100%;
+}
+.ms_card-todo{
+    margin-top: 20px;
+}
 
 
 
@@ -90,4 +97,8 @@ th:first-child{
     .ms_head-piece-3 {
         order: 3;
     }
+    .ms_card-todo{
+        margin-top: 0;
+    }
+    
 }

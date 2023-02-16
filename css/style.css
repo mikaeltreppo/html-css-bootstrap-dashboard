@@ -1,24 +1,20 @@
-:root {}
 
 .ms_invisible {
     display: none;
 }
 
 .ms_header {
-    border: black 1px dotted;
     height: 60px;
 }
 
 .ms_main {
     padding-top: 60px;
     width: 100%;
-    background-color: aqua;
 }
 
-.ms_content {
+.ms_content { 
     width: 100%;
     height: calc(100vh - 60px);
-    border: 2px dashed red;
 }
 
 .ms_aside {
@@ -51,7 +47,9 @@ th:first-child{
 .ms_card-todo{
     margin-top: 20px;
 }
-
+.ms_head-main{
+    background-color: rgb(27, 114, 232);
+}
 
 
 

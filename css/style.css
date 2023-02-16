@@ -36,7 +36,13 @@
 .ms_head-piece-3{
     order:1;
 }
-
+.ms_img-code{
+    height: 30px;
+    width: 30px;
+}
+th:first-child{
+    text-align: left;
+}
 
 
 

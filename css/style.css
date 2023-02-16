@@ -2,16 +2,19 @@
     display: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
+
 .ms_header {
     height: 60px;
 }
-.ms_text-icon{
+
+.ms_text-icon {
     font-size: 15px;
 }
+
 .ms_main {
     padding-top: 60px;
     width: 100%;
@@ -28,14 +31,17 @@ a{
     background-image: url("../img/sidebar-bg.png");
     background-color: rgb(5, 30, 52);
 }
-.ms_aside-icon:hover{
+
+.ms_aside-icon:hover {
     background-color: white;
     color: black;
-    
+
 }
-.ms_plus{
+
+.ms_plus {
     font-size: 25px;
 }
+
 .ms_head-piece-1 {
     order: 2
 }
@@ -72,15 +78,22 @@ th:first-child {
 .ms_head-main {
     background-color: rgb(27, 114, 232);
 }
-.ms_pills{
+
+.ms_pills {
     background-color: rgb(22, 91, 186);
 }
-.ms_text_small{
+
+.ms_text_small {
     font-size: 15px;
 }
-.ms_txt-dec{
+
+.ms_txt-dec {
     text-decoration: underline;
     color: rgb(54, 54, 111);
+}
+
+.offcanvas.ms_canvas {
+    width: 100%;
 }
 
 
@@ -128,4 +141,7 @@ th:first-child {
         margin-top: 0;
     }
 
+    .offcanvas.ms_canvas {
+        width: 50%;
+    }
 }

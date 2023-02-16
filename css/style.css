@@ -8,7 +8,9 @@ a{
 .ms_header {
     height: 60px;
 }
-
+.ms_text-small{
+    font-size: 15px;
+}
 .ms_main {
     padding-top: 60px;
     width: 100%;
@@ -31,7 +33,7 @@ a{
     
 }
 .ms_plus{
-    font-size: 35px;
+    font-size: 25px;
 }
 .ms_head-piece-1 {
     order: 2

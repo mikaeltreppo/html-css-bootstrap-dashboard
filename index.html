@@ -72,7 +72,7 @@
                             </div>
                             <!--breadcrumb-->
                             <div>
-                                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                                <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
                                     <ol class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="#"><span
                                                     class="badge rounded-pill text-bg-primary">Piano Blaze</span></a>
@@ -92,8 +92,69 @@
                             <span>125</span>
                         </div>
                         <!--nuovo studente-->
-                        <div class="ms_head-piece-3 col-12 col-md-2 ">
-                            <span> Nuovo studente </span><i class="fa-regular fa-square-plus ms_plus"></i>
+                        <div class="ms_head-piece-3 col-12 col-md-2 d-flex align-items-center justify-content-between">
+                            <span class="ms_text-small"> Nuovo studente </span>
+                            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                <i class="fa-regular fa-square-plus ms_plus text-white"></i> 
+                              </button>
+                              
+                              <div class="offcanvas offcanvas-end p-4" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                
+                              <form class="row g-3">
+                                <div class="col-md-6">
+                                  <label for="inputEmail4" class="form-label">Nome</label>
+                                  <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="inputPassword4" class="form-label">Cognome</label>
+                                  <input type="password" class="form-control" id="inputPassword4">
+                                </div>
+                                <div class="col-12">
+                                  <label for="inputAddress" class="form-label"></label>
+                                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                </div>
+                                <div class="col-12">
+                                  <nav class="navbar bg-body-tertiary">Email
+                                    <form class="container-fluid">
+                                      <div class="input-group">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                        <input type="text" class="form-control" placeholder="email" aria-label="email" aria-describedby="basic-addon1">
+                                      </div>
+                                    </form>
+                                  </nav></label>
+                                  <input type="text" class="form-control" id="inputAddress2" placeholder="Numero civico">
+                                </div>
+                                <div class="col-md-6">
+                                  <label for="inputCity" class="form-label">Città</label>
+                                  <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="col-md-4">
+                                  <label for="inputState" class="form-label">Stato</label>
+                                  <select id="inputState" class="form-select">
+                                    <option selected="">Choose...</option>
+                                    <option>...</option>
+                                  </select>
+                                </div>
+                                <div class="col-md-2">
+                                  <label for="inputZip" class="form-label">Zip</label>
+                                  <input type="text" class="form-control" id="inputZip">
+                                </div>
+                                <div class="col-12">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                    Seleziona per continuare
+                                    
+                                    </label>
+                                  </div>
+                                </div>
+                                <div class="col-12">
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+                                  <button type="reset" class="btn btn-warning">Cancel</button>
+                                </div>
+                              </form>
+                              
+                              </div>
                         </div>
                     </div>
 
